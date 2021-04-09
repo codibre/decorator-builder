@@ -1,6 +1,6 @@
 {
-  "name": "boilerplate-base",
-  "description": "This project is just a template for creation of new projects",
+  "name": "decorator-builder",
+  "description": "Easily create decorators for multiple and flexible purposes",
   "version": "0.0.0",
   "private": true,
   "author": {
@@ -60,11 +60,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/codibre/boilerplate-base.git"
+    "url": "https://github.com/codibre/decorator-builder.git"
   },
-  "homepage": "https://github.com/codibre/boilerplate-base#readme",
+  "homepage": "https://github.com/codibre/decorator-builder#readme",
   "bugs": {
-    "url": "https://github.com/codibre/boilerplate-base/issues"
+    "url": "https://github.com/codibre/decorator-builder/issues"
   },
   "keywords": [],
   "license": "MIT",
