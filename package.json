@@ -1,7 +1,7 @@
 {
   "name": "decorator-builder",
   "description": "Easily create decorators for multiple and flexible purposes",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Thiago O Santos <tos.oliveira@gmail.com>"
   },
@@ -65,7 +65,11 @@
   "bugs": {
     "url": "https://github.com/codibre/decorator-builder/issues"
   },
-  "keywords": ["decorator", "builder", "factory"],
+  "keywords": [
+    "decorator",
+    "builder",
+    "factory"
+  ],
   "license": "MIT",
   "devDependencies": {
     "@codibre/confs": "1.0.1",
