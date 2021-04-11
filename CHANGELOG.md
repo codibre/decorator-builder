@@ -1,5 +1,8 @@
 
-## 0.1.1
+## 0.1.2
+* f14c9f2 removing map
+## v0.1.1
+* 35e365b 0.1.1
 * 69fdb25 adding keywords
 ## v0.1.0
 * a0268f9 0.1.0
