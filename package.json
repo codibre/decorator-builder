@@ -99,7 +99,7 @@
     "typescript": "^4.2.4"
   },
   "dependencies": {
-    "is-this-a-pigeon": "^0.3.3",
+    "is-this-a-pigeon": "^0.3.4",
     "typed-emitter": "^1.3.1"
   }
 }
