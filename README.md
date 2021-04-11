@@ -21,7 +21,7 @@ Just create your new decorator
 const MyDecorator = createClassDecorator();
 ```
 
-And then, aplly it to your class!
+And then, apply it to your class!
 
 ```ts
 @MyDecorator()

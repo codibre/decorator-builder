@@ -65,7 +65,7 @@
   "bugs": {
     "url": "https://github.com/codibre/decorator-builder/issues"
   },
-  "keywords": [],
+  "keywords": ["decorator", "builder", "factory"],
   "license": "MIT",
   "devDependencies": {
     "@codibre/confs": "1.0.1",
