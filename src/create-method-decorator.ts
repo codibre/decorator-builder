@@ -1,25 +1,28 @@
-import { Args, Decorator, DecoratorItem } from './types';
+import { Func } from 'is-this-a-pigeon';
+import { IterableMethodDecorator, MethodDecoratorItem } from './types';
 
-export function createMethodDecorator<TDecoratorArgs extends Args>(
-	callback?: (decoratorItem: DecoratorItem<TDecoratorArgs>) => void,
-): Decorator<TDecoratorArgs> {
-	const mapped: DecoratorItem<TDecoratorArgs>[] = [];
-	const result = ((...args: TDecoratorArgs): MethodDecorator => {
+export function createMethodDecorator<
+	TFunc extends Func<any, void> = () => void
+>(
+	callback?: (decoratorItem: MethodDecoratorItem<Parameters<TFunc>>) => void,
+): IterableMethodDecorator<Parameters<TFunc>> {
+	const mapped: MethodDecoratorItem<Parameters<TFunc>>[] = [];
+	const result = ((...args: Parameters<TFunc>): MethodDecorator => {
 		return <T>(
 			target: Object,
-			methodName: string | symbol,
+			name: string | symbol,
 			descriptor: TypedPropertyDescriptor<T>,
 		): void => {
-			const decoratorItem = {
+			const decoratorItem: MethodDecoratorItem<Parameters<TFunc>> = {
 				target,
 				args,
 				descriptor,
-				methodName,
+				name,
 			};
 			mapped.push(decoratorItem);
-			callback?.(decoratorItem);
+			return callback?.(decoratorItem);
 		};
-	}) as Decorator<TDecoratorArgs>;
+	}) as IterableMethodDecorator<Parameters<TFunc>>;
 	result[Symbol.iterator] = () => mapped[Symbol.iterator]();
 	return result;
 }
