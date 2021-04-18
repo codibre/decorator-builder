@@ -1,6 +1,6 @@
-fluent-iterable - v0.1.2
+fluent-iterable - v0.1.3
 
-# fluent-iterable - v0.1.2
+# fluent-iterable - v0.1.3
 
 ## Table of contents
 
@@ -9,6 +9,7 @@ fluent-iterable - v0.1.2
 - [ClassDecoratorItem](interfaces/classdecoratoritem.md)
 - [DecoratorItem](interfaces/decoratoritem.md)
 - [IterableClassDecorator](interfaces/iterableclassdecorator.md)
+- [IterableDecorator](interfaces/iterabledecorator.md)
 - [IterableMethodDecorator](interfaces/iterablemethoddecorator.md)
 - [IterableParameterDecorator](interfaces/iterableparameterdecorator.md)
 - [IterablePropertyDecorator](interfaces/iterablepropertydecorator.md)

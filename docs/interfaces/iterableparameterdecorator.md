@@ -1,4 +1,4 @@
-[fluent-iterable - v0.1.2](../README.md) / IterableParameterDecorator
+[fluent-iterable - v0.1.3](../README.md) / IterableParameterDecorator
 
 # Interface: IterableParameterDecorator<TDecoratorArgs\>
 
@@ -10,7 +10,7 @@ Name | Type |
 
 ## Hierarchy
 
-* *Iterable*<[*ParameterDecoratorItem*](parameterdecoratoritem.md)<TDecoratorArgs\>\>
+* [*IterableDecorator*](iterabledecorator.md)<[*ParameterDecoratorItem*](parameterdecoratoritem.md)<TDecoratorArgs\>\>
 
   ↳ **IterableParameterDecorator**
 
@@ -31,6 +31,7 @@ Name | Type |
 ### Methods
 
 - [[Symbol.iterator]](iterableparameterdecorator.md#[symbol.iterator])
+- [clear](iterableparameterdecorator.md#clear)
 
 ## Methods
 
@@ -40,4 +41,14 @@ Name | Type |
 
 **Returns:** *Iterator*<[*ParameterDecoratorItem*](parameterdecoratoritem.md)<TDecoratorArgs\>, any, undefined\>
 
-Inherited from: Iterable.__@iterator
+Inherited from: [IterableDecorator](iterabledecorator.md)
+
+___
+
+### clear
+
+▸ **clear**(): *void*
+
+**Returns:** *void*
+
+Inherited from: [IterableDecorator](iterabledecorator.md)

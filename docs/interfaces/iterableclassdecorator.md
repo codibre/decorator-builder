@@ -1,4 +1,4 @@
-[fluent-iterable - v0.1.2](../README.md) / IterableClassDecorator
+[fluent-iterable - v0.1.3](../README.md) / IterableClassDecorator
 
 # Interface: IterableClassDecorator<TDecoratorArgs\>
 
@@ -10,7 +10,7 @@ Name | Type |
 
 ## Hierarchy
 
-* *Iterable*<[*ClassDecoratorItem*](classdecoratoritem.md)<TDecoratorArgs\>\>
+* [*IterableDecorator*](iterabledecorator.md)<[*ClassDecoratorItem*](classdecoratoritem.md)<TDecoratorArgs\>\>
 
   ↳ **IterableClassDecorator**
 
@@ -31,6 +31,7 @@ Name | Type |
 ### Methods
 
 - [[Symbol.iterator]](iterableclassdecorator.md#[symbol.iterator])
+- [clear](iterableclassdecorator.md#clear)
 
 ## Methods
 
@@ -40,4 +41,14 @@ Name | Type |
 
 **Returns:** *Iterator*<[*ClassDecoratorItem*](classdecoratoritem.md)<TDecoratorArgs, Function\>, any, undefined\>
 
-Inherited from: Iterable.__@iterator
+Inherited from: [IterableDecorator](iterabledecorator.md)
+
+___
+
+### clear
+
+▸ **clear**(): *void*
+
+**Returns:** *void*
+
+Inherited from: [IterableDecorator](iterabledecorator.md)

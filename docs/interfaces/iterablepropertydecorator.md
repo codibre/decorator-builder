@@ -1,4 +1,4 @@
-[fluent-iterable - v0.1.2](../README.md) / IterablePropertyDecorator
+[fluent-iterable - v0.1.3](../README.md) / IterablePropertyDecorator
 
 # Interface: IterablePropertyDecorator<TDecoratorArgs\>
 
@@ -10,7 +10,7 @@ Name | Type |
 
 ## Hierarchy
 
-* *Iterable*<[*PropertyDecoratorItem*](propertydecoratoritem.md)<TDecoratorArgs\>\>
+* [*IterableDecorator*](iterabledecorator.md)<[*PropertyDecoratorItem*](propertydecoratoritem.md)<TDecoratorArgs\>\>
 
   ↳ **IterablePropertyDecorator**
 
@@ -31,6 +31,7 @@ Name | Type |
 ### Methods
 
 - [[Symbol.iterator]](iterablepropertydecorator.md#[symbol.iterator])
+- [clear](iterablepropertydecorator.md#clear)
 
 ## Methods
 
@@ -40,4 +41,14 @@ Name | Type |
 
 **Returns:** *Iterator*<[*PropertyDecoratorItem*](propertydecoratoritem.md)<TDecoratorArgs\>, any, undefined\>
 
-Inherited from: Iterable.__@iterator
+Inherited from: [IterableDecorator](iterabledecorator.md)
+
+___
+
+### clear
+
+▸ **clear**(): *void*
+
+**Returns:** *void*
+
+Inherited from: [IterableDecorator](iterabledecorator.md)
