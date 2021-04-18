@@ -1,4 +1,5 @@
 import { Func } from 'is-this-a-pigeon';
+import { prepareDecorator } from './prepare-decorator';
 import { IterableMethodDecorator, MethodDecoratorItem } from './types';
 
 export function createMethodDecorator<
@@ -23,6 +24,6 @@ export function createMethodDecorator<
 			return callback?.(decoratorItem);
 		};
 	}) as IterableMethodDecorator<Parameters<TFunc>>;
-	result[Symbol.iterator] = () => mapped[Symbol.iterator]();
+	prepareDecorator(result, mapped);
 	return result;
 }

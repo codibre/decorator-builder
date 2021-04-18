@@ -27,22 +27,26 @@ export interface ClassDecoratorItem<
 	target: TFunction;
 }
 
+export interface IterableDecorator<T> extends Iterable<T> {
+	clear(): void;
+}
+
 export interface IterableMethodDecorator<TDecoratorArgs extends Args>
-	extends Iterable<MethodDecoratorItem<TDecoratorArgs>> {
+	extends IterableDecorator<MethodDecoratorItem<TDecoratorArgs>> {
 	(...args: TDecoratorArgs): MethodDecorator;
 }
 
 export interface IterableClassDecorator<TDecoratorArgs extends Args>
-	extends Iterable<ClassDecoratorItem<TDecoratorArgs>> {
+	extends IterableDecorator<ClassDecoratorItem<TDecoratorArgs>> {
 	(...args: TDecoratorArgs): ClassDecorator;
 }
 
 export interface IterablePropertyDecorator<TDecoratorArgs extends Args>
-	extends Iterable<PropertyDecoratorItem<TDecoratorArgs>> {
+	extends IterableDecorator<PropertyDecoratorItem<TDecoratorArgs>> {
 	(...args: TDecoratorArgs): PropertyDecorator;
 }
 
 export interface IterableParameterDecorator<TDecoratorArgs extends Args>
-	extends Iterable<ParameterDecoratorItem<TDecoratorArgs>> {
+	extends IterableDecorator<ParameterDecoratorItem<TDecoratorArgs>> {
 	(...args: TDecoratorArgs): ParameterDecorator;
 }

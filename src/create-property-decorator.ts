@@ -1,4 +1,5 @@
 import { Func } from 'is-this-a-pigeon';
+import { prepareDecorator } from './prepare-decorator';
 import { IterablePropertyDecorator, PropertyDecoratorItem } from './types';
 
 export function createPropertyDecorator<
@@ -18,6 +19,6 @@ export function createPropertyDecorator<
 			callback?.(decoratorItem);
 		};
 	}) as IterablePropertyDecorator<Parameters<TFunc>>;
-	result[Symbol.iterator] = () => mapped[Symbol.iterator]();
+	prepareDecorator(result, mapped);
 	return result;
 }

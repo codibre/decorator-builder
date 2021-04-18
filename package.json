@@ -35,7 +35,8 @@
     "lint:format:fix": "prettier --write '{src,test}/**/*.ts'",
     "lint:style": "eslint '**/*.ts'",
     "lint:style:fix": "eslint '**/*.ts' --fix",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "prepare": "husky install"
   },
   "jest": {
     "moduleFileExtensions": [
