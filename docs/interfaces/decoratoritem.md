@@ -1,4 +1,4 @@
-[fluent-iterable - v0.2.0](../README.md) / DecoratorItem
+[fluent-iterable - v0.2.1](../README.md) / DecoratorItem
 
 # Interface: DecoratorItem<TDecoratorArgs\>
 

@@ -1,4 +1,4 @@
-[fluent-iterable - v0.2.0](../README.md) / IterableDecorator
+[fluent-iterable - v0.2.1](../README.md) / IterableDecorator
 
 # Interface: IterableDecorator<T\>
 

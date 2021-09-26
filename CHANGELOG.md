@@ -1,5 +1,7 @@
 
-## 0.2.0
+## 0.2.1
+## v0.2.0
+* 38d4b8b 0.2.0
 * d199ab3 feat: crating replaceMethod, to easy make replacer decorators
 ## v0.1.3
 * b1915df 0.1.3
