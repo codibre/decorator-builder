@@ -1,5 +1,8 @@
 
-## 0.1.3
+## 0.2.0
+* d199ab3 feat: crating replaceMethod, to easy make replacer decorators
+## v0.1.3
+* b1915df 0.1.3
 * 5baf052 adding clear option for iterable decorators
 ## v0.1.2
 * 56c280f 0.1.2

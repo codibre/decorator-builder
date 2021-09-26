@@ -1,6 +1,6 @@
-fluent-iterable - v0.1.3
+fluent-iterable - v0.2.0
 
-# fluent-iterable - v0.1.3
+# fluent-iterable - v0.2.0
 
 ## Table of contents
 
@@ -23,6 +23,7 @@ fluent-iterable - v0.1.3
 - [createMethodDecorator](README.md#createmethoddecorator)
 - [createParameterDecorator](README.md#createparameterdecorator)
 - [createPropertyDecorator](README.md#createpropertydecorator)
+- [replaceMethod](README.md#replacemethod)
 - [wrapClass](README.md#wrapclass)
 - [wrapMethod](README.md#wrapmethod)
 
@@ -105,6 +106,30 @@ Name | Type |
 `callback?` | (`decoratorItem`: [*PropertyDecoratorItem*](interfaces/propertydecoratoritem.md)<Parameters<TFunc\>\>) => *void* |
 
 **Returns:** [*IterablePropertyDecorator*](interfaces/iterablepropertydecorator.md)<Parameters<TFunc\>\>
+
+___
+
+### replaceMethod
+
+▸ **replaceMethod**<T\>(`item`: [*MethodDecoratorItem*](interfaces/methoddecoratoritem.md)<T\>, `replacementFactory`: (`previous`: CallableFunction) => CallableFunction): *void*
+
+Replaces a method referenced by a method decorator item.
+Useful to write decorators that wrap another methods
+
+#### Type parameters:
+
+Name | Type |
+:------ | :------ |
+`T` | *any*[] |
+
+#### Parameters:
+
+Name | Type | Description |
+:------ | :------ | :------ |
+`item` | [*MethodDecoratorItem*](interfaces/methoddecoratoritem.md)<T\> | The MethodDecoratorItem   |
+`replacementFactory` | (`previous`: CallableFunction) => CallableFunction | the    |
+
+**Returns:** *void*
 
 ___
 
