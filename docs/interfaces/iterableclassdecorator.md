@@ -1,4 +1,4 @@
-[fluent-iterable - v0.2.3](../README.md) / IterableClassDecorator
+[fluent-iterable - v0.2.4](../README.md) / IterableClassDecorator
 
 # Interface: IterableClassDecorator<TDecoratorArgs\>
 

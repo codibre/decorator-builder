@@ -1,5 +1,6 @@
 
-## 0.2.3
+## 0.2.4
+* 0ab19e5 0.2.3
 * dda62d1 fix: fixing publishing
 ## v0.2.3
 * 168b55b 0.2.3
