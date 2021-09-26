@@ -9,11 +9,11 @@ import { MethodDecoratorItem } from './types';
  */
 export function replaceMethod<T extends Args>(
 	item: MethodDecoratorItem<T>,
-	replacementFactory: (previous: CallableFunction) => CallableFunction,
+	replacementFactory: (previous: Function) => CallableFunction,
 ) {
 	const previous = item.target[
 		item.name as keyof typeof item.target
-	] as CallableFunction;
+	] as Function;
 	const replacement = replacementFactory(previous);
 	(item.target[item.name as keyof typeof item.target] as any) = replacement;
 	if (item.descriptor.set) {
