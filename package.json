@@ -1,7 +1,7 @@
 {
   "name": "decorator-builder",
   "description": "Easily create decorators for multiple and flexible purposes",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "author": {
     "name": "Thiago O Santos <tos.oliveira@gmail.com>"
   },

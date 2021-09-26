@@ -1,5 +1,8 @@
 
 ## 0.2.3
+* dda62d1 fix: fixing publishing
+## v0.2.3
+* 168b55b 0.2.3
 ## v0.2.2
 * 757d2c3 0.2.2
 * bbf6f8b fix: fixing previous type
