@@ -1,5 +1,4 @@
 import { wrapMethod } from '../../src';
-import './setup';
 
 describe(wrapMethod.name, () => {
 	it('should replace the method of a prototype', () => {

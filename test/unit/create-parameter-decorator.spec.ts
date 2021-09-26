@@ -1,5 +1,4 @@
 import { createParameterDecorator, ParameterDecoratorItem } from '../../src';
-import './setup';
 
 describe(createParameterDecorator.name, () => {
 	it('should create an iterable method decorator', () => {

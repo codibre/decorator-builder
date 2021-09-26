@@ -1,5 +1,4 @@
 import { createPropertyDecorator, PropertyDecoratorItem } from '../../src';
-import './setup';
 
 describe(createPropertyDecorator.name, () => {
 	it('should create an iterable method decorator', () => {

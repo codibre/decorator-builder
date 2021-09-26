@@ -1,5 +1,4 @@
 import { wrapClass } from '../../src';
-import './setup';
 
 describe(wrapClass.name, () => {
 	it('should replace the prototype of a abstract class', () => {

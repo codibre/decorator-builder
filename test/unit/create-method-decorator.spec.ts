@@ -1,5 +1,4 @@
 import { createMethodDecorator, MethodDecoratorItem } from '../../src';
-import './setup';
 
 describe(createMethodDecorator.name, () => {
 	it('should create an iterable method decorator', () => {

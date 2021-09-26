@@ -1,5 +1,4 @@
 import { ClassDecoratorItem, createClassDecorator } from '../../src';
-import './setup';
 
 describe(createClassDecorator.name, () => {
 	it('should create an iterable class decorator', () => {
