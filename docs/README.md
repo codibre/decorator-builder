@@ -1,6 +1,6 @@
-fluent-iterable - v0.2.1
+fluent-iterable - v0.2.2
 
-# fluent-iterable - v0.2.1
+# fluent-iterable - v0.2.2
 
 ## Table of contents
 
@@ -111,7 +111,7 @@ ___
 
 ### replaceMethod
 
-▸ **replaceMethod**<T\>(`item`: [*MethodDecoratorItem*](interfaces/methoddecoratoritem.md)<T\>, `replacementFactory`: (`previous`: CallableFunction) => CallableFunction): *void*
+▸ **replaceMethod**<T\>(`item`: [*MethodDecoratorItem*](interfaces/methoddecoratoritem.md)<T\>, `replacementFactory`: (`previous`: Function) => CallableFunction): *void*
 
 Replaces a method referenced by a method decorator item.
 Useful to write decorators that wrap another methods
@@ -127,7 +127,7 @@ Name | Type |
 Name | Type | Description |
 :------ | :------ | :------ |
 `item` | [*MethodDecoratorItem*](interfaces/methoddecoratoritem.md)<T\> | The MethodDecoratorItem   |
-`replacementFactory` | (`previous`: CallableFunction) => CallableFunction | the    |
+`replacementFactory` | (`previous`: Function) => CallableFunction | the    |
 
 **Returns:** *void*
 

@@ -1,5 +1,8 @@
 
-## 0.2.1
+## 0.2.2
+* bbf6f8b fix: fixing previous type
+## v0.2.1
+* 571d73a 0.2.1
 ## v0.2.0
 * 38d4b8b 0.2.0
 * d199ab3 feat: crating replaceMethod, to easy make replacer decorators

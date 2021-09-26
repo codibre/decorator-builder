@@ -1,4 +1,4 @@
-[fluent-iterable - v0.2.1](../README.md) / ParameterDecoratorItem
+[fluent-iterable - v0.2.2](../README.md) / ParameterDecoratorItem
 
 # Interface: ParameterDecoratorItem<TDecoratorArgs\>
 
