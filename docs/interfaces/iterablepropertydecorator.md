@@ -1,4 +1,4 @@
-[fluent-iterable - v0.2.2](../README.md) / IterablePropertyDecorator
+[fluent-iterable - v0.2.3](../README.md) / IterablePropertyDecorator
 
 # Interface: IterablePropertyDecorator<TDecoratorArgs\>
 

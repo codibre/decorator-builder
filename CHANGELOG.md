@@ -1,5 +1,7 @@
 
-## 0.2.2
+## 0.2.3
+## v0.2.2
+* 757d2c3 0.2.2
 * bbf6f8b fix: fixing previous type
 ## v0.2.1
 * 571d73a 0.2.1
