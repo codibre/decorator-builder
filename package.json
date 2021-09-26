@@ -1,7 +1,7 @@
 {
   "name": "decorator-builder",
   "description": "Easily create decorators for multiple and flexible purposes",
-  "version": "0.2.3",
+  "version": "0.2.2",
   "author": {
     "name": "Thiago O Santos <tos.oliveira@gmail.com>"
   },
@@ -36,7 +36,8 @@
     "lint:style": "eslint '**/*.ts'",
     "lint:style:fix": "eslint '**/*.ts' --fix",
     "semantic-release": "semantic-release",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "prepublishOnly": "npm run build"
   },
   "jest": {
     "moduleFileExtensions": [
